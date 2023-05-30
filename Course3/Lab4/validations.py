@@ -23,10 +23,6 @@ def validate_user(username, minlen):
     return True
 
 
-#    if re.match('^[a-z]', username):
-#        return True
-#    return False
-
 print(validate_user("blue.kale", 3)) # True
 print(validate_user(".blue.kale", 3)) # Currently True, should be False
 print(validate_user("red_quinoa", 4)) # True
